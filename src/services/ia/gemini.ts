@@ -37,7 +37,6 @@ export async function getSuggestionFromAI(userPrompt: string) {
     return result ? result.trim() : "Não consegui gerar sugestões no momento.";
   } catch (e) {
     console.error("Erro ao chamar a API do Gemini:", e);
-    // Erro genérico para o usuário final
     return "Erro ao gerar sugestão. Verifique sua chave de API.";
   }
 }
