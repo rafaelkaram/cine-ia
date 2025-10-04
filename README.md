@@ -1,7 +1,8 @@
 # 🎬 CineIA - Seu Assistente Inteligente de Entretenimento
 
 <div align="center">
-  <img src="./assets/logo.png" alt="CineIA Logo" width="200"/>
+  <h1>🎬 CineIA</h1>
+  <p><em>Seu Assistente Inteligente de Entretenimento</em></p>
   
   [![React Native](https://img.shields.io/badge/React%20Native-0.81.4-blue.svg)](https://reactnative.dev/)
   [![Expo](https://img.shields.io/badge/Expo-~54.0.10-000020.svg)](https://expo.dev/)
