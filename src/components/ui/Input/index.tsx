@@ -11,6 +11,11 @@ export const Input = ({ variant = "default", ...props }: InputProps) => {
     <TextInput
       style={[styles.input, variant === "multiline" && styles.multiline]}
       placeholderTextColor="#aaaaaa"
+      autoCorrect={false}
+      spellCheck={false}
+      autoCapitalize="none"
+      textContentType="none"
+      importantForAutofill="no"
       {...props}
     />
   );

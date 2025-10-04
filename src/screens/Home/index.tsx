@@ -23,7 +23,7 @@ import { styles } from "./styles";
 
 const FONT_PATH = "../../../assets/fonts/BebasNeue-Regular.ttf";
 
-export const HomeScreen: React.FC = () => {
+export const HomeScreen = () => {
   const [prompt, setPrompt] = useState("");
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedMedia, setSelectedMedia] = useState<{
@@ -58,7 +58,7 @@ export const HomeScreen: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" />
 
       <ScrollView
         keyboardShouldPersistTaps="handled"
